@@ -25,7 +25,7 @@ Aplikasi Pendaftaran-App Merupakan Aplikasi Pendaftaran User yang menggunakan em
 
 ## Tech
 
-Aplikasi ini di bangun menggunakan:
+Aplikasi Pendaftaran-App ini di bangun menggunakan:
 
 - [Laragon](https://laragon.org/download/index.html) - digunakan sebagai web server dalam pembuatan aplikasi berbasis web 
 - [Laravel versi 8](https://laravel.com/docs/8.x) - Laravel adalah framework (kerangka kerja) berbasis bahasa pemrograman PHP yang bisa digunakan untuk membantu proses pengembangan sebuah website agar lebih maksimal. 
@@ -55,11 +55,11 @@ Pertama-tama kita meng-Clone project dari github ke Komputer (local) kita,dengan
 ```sh
 git clone https://github.com/chandrakarim/Aplikasi-Pendaftaran-App.git
 ```
-Anda dapat langsung membuka terminal dan masuk ke direktori project  Pendaftaran-App. Lalu, jalankan perintah :
+Anda dapat langsung membuka terminal dan masuk ke direktori project  Aplikasi Pendaftaran-App. Lalu, jalankan perintah :
 ```sh
 composer install
 ```
-Setelah berhasil melakukan instalasi composer, Anda harus membuat file .env pada direktori root project  Pendaftaran-App. Untuk membuat file .env, Anda dapat menjalankan perintah sebagai berikut pada terminal.
+Setelah berhasil melakukan instalasi composer, Anda harus membuat file .env pada direktori root project Aplikasi Pendaftaran-App. Untuk membuat file .env, Anda dapat menjalankan perintah sebagai berikut pada terminal.
 ```sh
 Mengubah file : .env.example
 menjadi : .env
