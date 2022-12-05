@@ -57,9 +57,7 @@ git clone https://github.com/chandrakarim/Aplikasi-Pendaftaran-App.git
 ```
 Anda dapat langsung membuka terminal dan masuk ke direktori project  Pendaftaran-App. Lalu, jalankan perintah :
 ```sh
-php artisan composer install
-lalu
-php artisan composer update
+composer install
 ```
 Setelah berhasil melakukan instalasi composer, Anda harus membuat file .env pada direktori root project  Pendaftaran-App. Untuk membuat file .env, Anda dapat menjalankan perintah sebagai berikut pada terminal.
 ```sh
