@@ -53,7 +53,7 @@ Install the dependencies and devDependencies and start the server.
 Pertama-tama kita meng-Clone project dari github ke Komputer (local) kita,dengan menggunakan Git Bash atau Cmd pada Laragon.lalu bukalah direktori sesuai di bawah ini.
  C:\laragon\www\ (tempat kita melakukan Cloning)
 ```sh
-https://github.com/chandrakarim/Aplikasi-Pendaftaran-App.git
+git clone https://github.com/chandrakarim/Aplikasi-Pendaftaran-App.git
 ```
 Anda dapat langsung membuka terminal dan masuk ke direktori project  Pendaftaran-App. Lalu, jalankan perintah :
 ```sh
