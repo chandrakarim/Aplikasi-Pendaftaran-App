@@ -73,6 +73,27 @@ DB_PASSWORD= (Password anda)
 setelah itu buka Database anda di Chrome : localhost/phpmyadmin
 lalu,buatlah nama DB anda,sesuaikan dengan DB_DATABASE di .env 
 
+untuk mengaktifkan email verify,modifikasi script ini di .env
+```sh
+MAIL_MAILER=
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=
+MAIL_FROM_ADDRESS=
+```
+menjadi seperti ini.
+```sh
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=papuauser27@gmail.com
+MAIL_PASSWORD=ffhqymimdiscfxcb
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="papuauser27@gmail.com"
+```
+
 Setiap kali melakukan perubahan pada file .env, Anda dianjurkan untuk menjalankan perintah :
 ```sh
 php artisan config:cache
